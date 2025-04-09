@@ -28,3 +28,5 @@ document.querySelector('.scroll').addEventListener('click', function (e) {
         behavior: 'smooth'
     });
 });
+/*script copyright years*/
+document.getElementById("year").textContent = new Date().getFullYear();

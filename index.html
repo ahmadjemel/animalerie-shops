@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <!-- Compiled and minified CSS -->
+     
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=poppins:400,500,600,700" rel="stylesheet" />
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-chubby/css/uicons-thin-chubby.css'>
@@ -25,7 +26,7 @@
 
 <body>
     
-        <nav class=" nav-wrapper white black-text  ">
+        <nav class=" navbar-light bg-white me-2">
             <div class=" container">
                 <ul class="left hide-on-med-and-down text-decoration-none">
                     <li><a href="#acceuil" class="black-text text-decoration-none">Acceuil</a></li>
@@ -53,7 +54,7 @@
                     </li>
                 </ul>
                 <div class="container center">
-                    <img class="img-fluid col-1"id="logo" src="./img/logo-shop.webp"  alt="logo-shop">
+                    <img class="img-fluid col-1" id="logo" src="./img/logo.png" alt="logo-shop">
                     <span id="quattro">4-</span>
                     <span id="zampa">Zampe</span>
                     <span id="pet">Store</span>
@@ -62,7 +63,7 @@
         </nav>
        <!-- Hero section-->
        <header>
-       <section class="d-flex align-items-center ">
+       <section class="d-flex align-items-center">
         <div class="hero-overlay">
             <div class="container position-relative" id="header">
                 <div class="row">
@@ -79,71 +80,91 @@
 
     </header>
     <!-- Catégories Produits -->
-    <section class="py-4">
+    <section class="py-5">
         <div class="container">
             <h2 class="text-center mb-5">Nos catégories de produits</h2>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card category-card">
-                        <img src="./img/chien.jpg" height="200px" class="card-img-top" alt="Accessoires pour chiens">
+                <div class="col-md-4 col-s-2 ">
+                    <div class="card category-card"width="200">
+                        <img src="./img/chien.jpg"class="card-img-top"alt="Accessoires pour chiens">
                         <div class="card-body text-center">
-                            <h3 class="h5 mb-4 card-title">Chiens</h3>
+                            <h3 class="mb-4 card-title">Chiens</h3>
                             <a href="chiens.html" class="btn btn-outline-primary">Voir les produits</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card category-card">
-                        <img src="./img/chat.jpg" height="200px" class="card-img-top"  alt="Accessoires pour chats">
+                <div class="col-md-4 col-s-2  ">
+                    <div class="card category-card"width="200">
+                        <img src="./img/chat.jpg"class="card-img-top"alt="Accessoires pour chats">
                         <div class="card-body text-center">
-                            <h3 class="h5 mb-4 card-title">Chats</h3>
-                            <a href="chats.html" class="btn btn-outline-primary">Voir les produits</a>
+                            <h3 class="p mb-4 card-title">Chats</h3>
+                            <a href="chats.html"class="btn btn-outline-primary">Voir les produits</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card category-card">
-                        <img src="./img/rongeurs.jpg" height="200px" class="card-img-top" alt="Accessoires pour rongeurs">
+                <div class="col-md-4 xs-12 ">
+                    <div class="card category-card"width="200">
+                        <img src="./img/rongeurs.jpg"class="card-img-top"alt="Accessoires pour rongeurs">
                         <div class="card-body text-center">
-                            <h3 class="h5 mb-4 card-title">Rongeurs</h3>
+                            <h3 class="p mb-4 card-title">Rongeurs</h3>
                             <a href="rongeurs.html" class="btn btn-outline-primary">Voir les produits</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    
+      <!--image marques-->
+        <div class="container bg-">
+            <h2 class="text-center mb-3">Nos marques partenaires</h2>
+                <div class="row">
+                    <div class="col-md-4 col-s-2 ">
+                        <img src="./marque/Carnilove-nouritture-chat.jpg"height="200" alt="Carnilove-nouritture-logo" class="card-img-top">
+                    </div>
+                    <div class="col-md-4 col-s-2 ">
+                        <img src="./marque/ownat-logo.png"height="200" alt="ownat-logo" class="card-img-top">
+                    </div>
+                    <div class="col-md-4 col-s-2 ">
+                        <img src="./marque/plaisir-nouriture-animaux.jpg"height="200" alt ="plaisir" class="card-img-top">
+                    </div>
+                </div>
         </div>
+      </section>
+     
     </section>
     <footer id="contact">
         <div class="footer-content ">
             <div >
                 <h4>Contact</h4>
-                <h5 style="font-size: 18px;" ><a href="tel:26211216" style="text-decoration: none; color: white;"> 📞 +216 26 211 216</a></h5>
-                <h5 style="font-size: 18px;" ><a style="text-decoration: none; color: white;" href="mailto:4zampe.pets.store@gmail.com"> 📧 4zampe.pets.store@gmail.com </a></h5>
+                <p style="padding:0.5rem;" ><a href="tel:26211216" style="text-decoration: none; color: white;"> 📞 +216 26 211 216</a></p>
+                <p style="padding:0.5rem;"><a style="text-decoration: none; color: white;" href="mailto:4zampe.pets.store@gmail.com"> 📧 4zampe.pets.store@gmail.com </a></p>
             </div>
             <div >
                 <h4>Horaires</h4>
-                <h5 style="font-size: 18px;">Lun-Sam: 9h-19h</h5>
-                <h5 style="font-size: 18px;">Dim: 10h-13h</h5>
+                <p style="padding:0.5rem;">Lun-Sam: 9h-19h</p>
+                <p style="padding:0.5rem;">Dim: 10h-13h</p>
             </div>
             <div>
                 <h4>Localisation</h4>
-                <p style="font-size: 18px;">📍 Adresse : Route Teniour Km6,5 chihia à coté pharmacie Wacef Abdelkefi, Sfax</p>
+                <p style="padding:0.5rem;">📍 Adresse : Route Teniour Km6,5 chihia à coté pharmacie Wacef Abdelkefi, Sfax</p>
                 <!-- Carte Google Maps -->
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.123456789012!2d10.7389856!3d34.7998429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1301d336a3b08997%3A0xbe0cd63ba9119d19!2squattro%20zampe%20pet's%20store%20ouverture%20prochainement!5e0!3m2!1sfr!2stn!4v1697131234567!5m2!1sfr!2stn"
-                        width="auto" style="border:0;font-size: 18px;" allowfullscreen="" loading="lazy"
+                        style="border:0;padding:0.5rem;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
-            </div>
-        </div>
+                  </div>
+                    </div>
+            <p class=" align-items-center p-0">
+              &copy; <span id="year"></span> <strong>4-ZampeStore</strong>.Tous droits réservés.
+              <br>
+              <small>Site réalisé par Ahmed Jmal</small>
+            </p>
     </footer>
     <a href="#" class="scroll"><i class="fa-solid fa-arrow-up"></i></a>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script> 
     <script src="script.js"></script>
 
 </body>

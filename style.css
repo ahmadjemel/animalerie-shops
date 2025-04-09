@@ -51,7 +51,7 @@ h1 {
     color: #7A5B54;
     font-size: 40px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 1.9rem;
     word-wrap: break-word;
 }
 
@@ -81,9 +81,9 @@ a {
 }
 
 #logo {
-    height: 5%;
-    width: 5%;
-   
+    height: 3.5rem;
+    width: 3rem;
+  
 }
 
 #zampa {
@@ -152,7 +152,10 @@ footer {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
 }
-
+/*product page*/
+.filtres{
+    display: block;
+}
 /* Conteneur de la carte */
 .map-container {
     margin-top: 1rem;
@@ -188,8 +191,10 @@ footer {
     }
 
     #logo {
-        height: 3%;
+        height: 3.5rem;
         width: 3rem;
+      
+
     }
     header{
         background-image: url(./img/animalerie-shop.webp);
