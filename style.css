@@ -12,7 +12,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;   
     background-color:#CFC1B9;
-    border-radius: 24px;
+    border-radius: 0 0 24px 24px;
 }
 
 p,
@@ -67,7 +67,6 @@ h1 {
     width: 100vh;
     height: 600px;
     padding: 32px;
-    border-radius: 24px;
 }
 
 ul,
