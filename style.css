@@ -26,17 +26,17 @@ h1 {
 
 #btn {
     margin-left: 10%;
-    width: 250px;
-    height: 50px;
+    width: 260px;
+    height: 60px;
     background: #EFDAF4;
     border-radius: 60px;
     justify-content: center;
     align-items: center;
     display: inline-flex;
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
     font-family: Inter;
-    font-weight: 50vh;
+    font-weight: 40vh;
     line-height: 28px;
     transition: .3s;
 }
@@ -209,17 +209,21 @@ footer {
     }
 
     #btn {
-        margin: 5rem;
+        margin: 1rem;
+        width: 50dhv;
         justify-content: center;
-        width: 30vh;
-        margin-left: 10%;
-        transition: 0.3;
+        font-size: 20px;
+        font-family: Inter;
+        font-weight: 40vh;
+        line-height: 28px;
+        transition: .3s;
     }
-         #btn:hover{
-    background:#6F3375;
+       #btn:hover{
+        background:#6F3375;
+    }
 }
 
-    }
+    
 
     #header {
         display: flex;
